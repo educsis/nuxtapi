@@ -1,7 +1,3 @@
-<script setup lang="ts">
-  const { data } = await useFetch('/api/hello')
-</script>
-
 <template>
   <main class="container thecard">
     <h1>ed</h1>
@@ -15,10 +11,10 @@
 <style>
 .thecard{
     margin: 50px;
-    padding: 50px;
+    padding: 30px;
     border-radius: 10px;
     background-color: white;
-    border: 3px solid rgb(243, 185, 243);
+    border: 3px solid #f7c34a;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -34,7 +30,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(243, 185, 243, .5);
+    background-color: #f7c34a;
     border-radius: 10px;
     transform-origin: center;
     transition: transform .3s ease;
