@@ -16,6 +16,8 @@ export default defineEventHandler(async (event) => {
     // const statusUrl = response?.status_url
     const getInfo = 'https://sharpapi.com/v1/ecommerce/product_intro/job/status/' + response.job_id
 
+    
+
     // if (!statusUrl) {
     //   return { error: "No status_url found in response", raw: response }
     // }
