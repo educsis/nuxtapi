@@ -22,16 +22,16 @@ export default defineEventHandler(async (event) => {
     //   return { error: "No status_url found in response", raw: response }
     // }
 
-    const statusResult = await $fetch(getInfo, {
-      method: "GET",
-      headers: {
-        accept: "application/json",
-        Authorization: `Bearer Ct2mNMNatB2OaXIalAXEtZ16MAB1UInWiFvveB29`,
-        "User-Agent": "SharpAPI Playground"
-      }
-    })
+    // const statusResult = await $fetch(getInfo, {
+    //   method: "GET",
+    //   headers: {
+    //     accept: "application/json",
+    //     Authorization: `Bearer Ct2mNMNatB2OaXIalAXEtZ16MAB1UInWiFvveB29`,
+    //     "User-Agent": "SharpAPI Playground"
+    //   }
+    // })
 
-    return statusResult
+    return response
 
   } catch (err: any) {
     return { error: err?.data || err.message }

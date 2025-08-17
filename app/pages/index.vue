@@ -1,11 +1,25 @@
 <template>
-  <main class="container thecard">
-    <h1>ed</h1>
-    <pre>{{ data }}</pre>
+  <main class="container">
+    <nav>
+      <ul>
+        <li><strong>EDWIN ORELLANA</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+      </ul>
+    </nav>
+    <div class="thecard grid">
+      <h1>ed</h1>
+    </div>
+    <div class="thecard grid">
+      <h1>ed</h1>
+    </div>
+    <div class="thecard grid">
+      <h1>ed</h1>
+    </div>
   </main>
-  <div class="thecard">
-    <h1>ed</h1>
-  </div>
 </template>
 
 <style>
@@ -20,6 +34,7 @@
     position: relative;
     height: 100%;
     width: 800px;
+    font-family: 'Roboto';
 }
 
 .thecard:before{
